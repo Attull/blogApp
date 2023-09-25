@@ -4,3 +4,9 @@ export const getUserController = (req,res)=>{
         message:"Helllo EVery"
     })
 }
+
+export const loginController = (req, res) =>{
+    res.send({
+        message:"Login"
+    })
+}
