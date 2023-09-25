@@ -6,7 +6,7 @@ const app =  Express()
 
 dotenv.config()
 
-
+app.use(Express.json())
 
 app.use(userRoute)
 
